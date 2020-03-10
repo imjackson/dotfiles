@@ -1,9 +1,0 @@
-# fs info/navigation
-alias l="ls -la"
-alias ..="cd .."
-alias --="cd -"
-
-# git
-alias ga="git add ."
-alias gao="git remote add origin"
-alias gc="git commit -m"
