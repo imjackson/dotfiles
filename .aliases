@@ -7,3 +7,8 @@ alias ga="git add ."
 alias gao="git remote add origin"
 alias gc="git commit -m"
 alias gb="git branch -a"
+
+# python
+alias python="python3"
+alias pip="pip3"
+
