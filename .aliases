@@ -21,3 +21,6 @@ alias ni="npm install"
 alias ngi="npm install -g"
 alias nu="npm uninstall"
 alias ngu="npm uninstall -g"
+
+# xclip
+alias clip="xclip -sel clip"
