@@ -1,12 +1,14 @@
+#!/bin/bash
+
 # default editor
 export EDITOR='vim';
 
 # English/UTF-8
-export LANG='en_US.UTF-8'
-export LC_ALL='en_US.UTF-8'
+export LANG='en_US.UTF-8';
+export LC_ALL='en_US.UTF-8';
 
 # python stdin/out/err encoding
 export PYTHONIOENCODING='UTF-8';
 
 # tty for gpg
-export GPG_TTY=$(tty)
+export GPG_TTY=$(tty);
