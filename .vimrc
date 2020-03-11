@@ -9,4 +9,3 @@ set softtabstop=4
 
 " UI
 set number
-
