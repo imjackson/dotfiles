@@ -2,6 +2,9 @@
 
 # BASH ALIASES
 
+# safety measures
+alias rm="rm -i"
+
 # fs info/navigation
 alias l="ls -la"
 alias ..="cd .."
