@@ -1,2 +1,4 @@
 # My .files
-These are my various dotfiles for configuring bash settings. As of now these are standalone, I would like to create an install script in the near future for automatic setup.
+These are my various dotfiles for configuring bash settings. Running setup.sh
+will test for and create symlinks for the various dotfiles included, though they
+still must be soucred into .bashrc/.bash_profile.
