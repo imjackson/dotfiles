@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# BASH ALIASES
+
 # fs info/navigation
 alias l="ls -la"
 alias ..="cd .."
