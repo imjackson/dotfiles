@@ -5,11 +5,18 @@
 # safety measures
 alias rm="rm -i"
 
-# fs info/navigation
-alias l="ls -la"
-alias la="ls -a"
-alias ll="ls -l"
+# ls (add color)
+alias l="ls -la --color=auto"
+alias la="ls -a --color=auto"
+alias ll="ls -l --color=auto"
+
+# cd 
 alias ..="cd .."
+
+# grep (add color)
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="fgrep --color=auto"
 
 # git
 alias ga="git add ."
