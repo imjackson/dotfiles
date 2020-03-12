@@ -4,6 +4,7 @@
 
 # safety measures
 alias rm="rm -i"
+alias mv="mv -i"
 
 # ls (add color)
 alias l="ls -la --color=auto"
