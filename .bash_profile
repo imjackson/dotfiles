@@ -6,6 +6,20 @@ for file in .bash_aliases .bash_prompt .bash_exports .bash_functions; do
 		. ~/$file
 	fi
 done
+unset file
+
+# append to history rather than overwriting it
+shopt -s histappend
+
+# autocorrect typos in path name when using cd
+shopt -s cdspell
+
+# adjust history sizing
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# update window size properly
+shopt -s checkwinsize
 
 # add tab completion
 if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
