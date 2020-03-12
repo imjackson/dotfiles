@@ -7,6 +7,8 @@ alias rm="rm -i"
 
 # fs info/navigation
 alias l="ls -la"
+alias la="ls -a"
+alias ll="ls -l"
 alias ..="cd .."
 
 # git
