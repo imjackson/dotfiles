@@ -13,6 +13,8 @@ alias ll="ls -l --color=auto"
 
 # cd 
 alias ..="cd .."
+alias ....="cd ../.."
+alias ......="cd ../../.."
 
 # grep (add color)
 alias grep="grep --color=auto"
