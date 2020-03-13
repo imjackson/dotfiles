@@ -6,17 +6,26 @@
 alias rm="rm -i"
 alias mv="mv -i"
 
-# ls (add color)
-alias l="ls -la --color=auto"
-alias la="ls -a --color=auto"
-alias ll="ls -l --color=auto"
+# enable color support if available
+if [ -x /usr/bin/dircolors ]; then
+	# ls
+	alias ls="ls --color=auto"
+	# grep
+	alias grep="grep --color=auto"
+	alias fgrep="fgrep --color=auto"
+	alias egrep="egrep --color=auto"
+fi
 
+# ls (add color)
+alias l="ls -la"
+alias la="ls -a"
+alias ll="ls -l"
 # cd 
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
 
-# grep (add color)
+# grep 
 alias grep="grep --color=auto"
 alias fgrep="fgrep --color=auto"
 alias egrep="fgrep --color=auto"
