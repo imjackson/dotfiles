@@ -25,11 +25,6 @@ alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
 
-# grep 
-alias grep="grep --color=auto"
-alias fgrep="fgrep --color=auto"
-alias egrep="fgrep --color=auto"
-
 # git
 alias ga="git add ."
 alias gs="git status"
