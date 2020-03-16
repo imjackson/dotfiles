@@ -20,6 +20,7 @@ fi
 alias l="ls -la"
 alias la="ls -a"
 alias ll="ls -l"
+
 # cd 
 alias ..="cd .."
 alias ....="cd ../.."
@@ -31,6 +32,9 @@ alias gs="git status"
 alias gc="git commit -m"
 alias gb="git branch -a"
 alias gao="git remote add origin"
+alias gstash="git stash save"
+alias gstashp="git stash pop"
+alias gstashl="git stash list"
 
 # python
 alias python="python3"
