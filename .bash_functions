@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# create a new directory and navigate into it
 mkd() {
 	mkdir $1 && cd $1
+}
+
+# navigate into a directory and open vscode
+codein() {
+	cd $1 && code .
 }
