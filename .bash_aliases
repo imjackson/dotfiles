@@ -51,5 +51,9 @@ alias ngi="npm install -g"
 alias nu="npm uninstall"
 alias ngu="npm uninstall -g"
 
+# printing ssh/gpg keys
+alias sshkeys="ls -la ~/.ssh"
+alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"
+
 # xclip
 alias clip="xclip -sel clip"
