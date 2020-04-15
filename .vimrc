@@ -4,8 +4,10 @@ syntax enable " enable syntax processing
 colorscheme darkblue
 
 " tabbing
-set tabstop=4
+set tabstop=8
 set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 " UI
 set number
