@@ -1,7 +1,7 @@
 # BASH PROFILE
 
-# Source all other dot files into profile
-for file in .bash_aliases .bash_prompt .bash_exports .bash_functions; do
+# Source bash related dotfiles
+for file in .aliases .bash_prompt .exports .functions; do
 	if [ -f ~/$file ]; then
 		. ~/$file
 	fi
