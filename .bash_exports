@@ -1,4 +1,4 @@
-#!/bin/bash
+# EXPORTS
 
 # default editor
 export EDITOR='vim';

@@ -1,4 +1,4 @@
-#!/bin/bash
+# FUNCTIONS
 
 # create a new directory and navigate into it
 mkd() {

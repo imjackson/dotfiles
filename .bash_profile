@@ -1,4 +1,4 @@
-#!/bin/bash
+# BASH PROFILE
 
 # Source all other dot files into profile
 for file in .bash_aliases .bash_prompt .bash_exports .bash_functions; do

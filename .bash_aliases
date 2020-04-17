@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # BASH ALIASES
 
 # safety measures
@@ -16,7 +14,7 @@ if [ -x /usr/bin/dircolors ]; then
 	alias egrep="egrep --color=auto"
 fi
 
-# ls (add color)
+# ls 
 alias l="ls -la"
 alias la="ls -a"
 alias ll="ls -l"
