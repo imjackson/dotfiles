@@ -18,6 +18,7 @@ fi
 alias l="ls -laG" # list all files in long format
 alias la="ls -aG" # list all files
 alias ll="ls -lG" # list non-hidden files in long format
+alias ld="ls -ld */ && ls -ld .*/" # list all directories only in long format"
 
 # cd 
 alias ..="cd .."
