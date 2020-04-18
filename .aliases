@@ -49,6 +49,7 @@ alias nig="npm install -g"
 alias nu="npm uninstall"
 alias nug="npm uninstall -g"
 alias nup="npm update"
+alias nupg="npm update -g"
 
 # printing ssh/gpg keys
 alias sshkeys="ls -la ~/.ssh"
