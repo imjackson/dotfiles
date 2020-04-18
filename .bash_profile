@@ -14,10 +14,6 @@ shopt -s histappend
 # autocorrect typos in path name when using cd
 shopt -s cdspell
 
-# adjust history sizing
-HISTSIZE=1000
-HISTFILESIZE=2000
-
 # update window size properly
 shopt -s checkwinsize
 

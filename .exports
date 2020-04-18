@@ -7,6 +7,10 @@ export EDITOR='vim';
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
+# history
+export HISTSIZE=20000
+export HISTFILESIZE=20000
+
 # python stdin/out/err encoding
 export PYTHONIOENCODING='UTF-8';
 
