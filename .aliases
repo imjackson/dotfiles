@@ -45,9 +45,10 @@ alias v="vim"
 
 # npm
 alias ni="npm install"
-alias ngi="npm install -g"
+alias nig="npm install -g"
 alias nu="npm uninstall"
-alias ngu="npm uninstall -g"
+alias nug="npm uninstall -g"
+alias nup="npm update"
 
 # printing ssh/gpg keys
 alias sshkeys="ls -la ~/.ssh"
