@@ -15,9 +15,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # ls ('G' flag adds color support on osx) 
-alias l="ls -laG"
-alias la="ls -aG"
-alias ll="ls -lG"
+alias l="ls -laG" # list all files in long format
+alias la="ls -aG" # list all files
+alias ll="ls -lG" # list non-hidden files in long format
 
 # cd 
 alias ..="cd .."
