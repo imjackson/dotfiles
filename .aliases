@@ -14,7 +14,7 @@ if [ -x /usr/bin/dircolors ]; then
 	alias egrep="egrep --color=auto"
 fi
 
-# ls 
+# ls ('G' flag adds color support on osx) 
 alias l="ls -laG"
 alias la="ls -aG"
 alias ll="ls -lG"
