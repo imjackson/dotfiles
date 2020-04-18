@@ -4,7 +4,10 @@
 alias rm="rm -i"
 alias mv="mv -i"
 
-# enable color support if available
+# add color support to ls on mac
+alias ls="ls -G"
+ 
+# enable color support on linux if available
 if [ -x /usr/bin/dircolors ]; then
 	# ls
 	alias ls="ls --color=auto"
@@ -14,10 +17,10 @@ if [ -x /usr/bin/dircolors ]; then
 	alias egrep="egrep --color=auto"
 fi
 
-# ls ('G' flag adds color support on osx) 
-alias l="ls -laG" # list all files in long format
-alias la="ls -aG" # list all files
-alias ll="ls -lG" # list non-hidden files in long format
+# ls 
+alias l="ls -la" # list all files in long format
+alias la="ls -a" # list all files
+alias ll="ls -l" # list non-hidden files in long format
 alias ld="ls -ld */ && ls -ld .*/" # list all directories only in long format"
 
 # cd 
