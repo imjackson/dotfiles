@@ -1,7 +1,7 @@
 # BASH PROFILE
 
 # Source bash related dotfiles
-dotfiles=$(find -L `pwd`/system -mindepth 1 -maxdepth 1 -iname ".*")
+dotfiles=$(find -L `pwd`/.system -mindepth 1 -maxdepth 1 -iname ".*")
 
 for file in $dotfiles; do
     . "$file"
