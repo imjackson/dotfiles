@@ -1,11 +1,12 @@
 # BASH PROFILE
 
 # Source bash related dotfiles
-for file in .aliases .bash_prompt .exports .functions; do
-	if [ -f ~/$file ]; then
-		. ~/$file
-	fi
+dotfiles=$(find -L `pwd`/system -mindepth 1 -maxdepth 1 -iname ".*")
+
+for file in $dotfiles; do
+    . "$file"
 done
+unset dotfiles
 unset file
 
 # append to history rather than overwriting it
