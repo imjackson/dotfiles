@@ -1,0 +1,10 @@
+# SHOPT CONFIG
+
+# append to history rather than overwriting it
+shopt -s histappend
+
+# autocorrect typos in path when using cd
+shopt -s cdspell
+
+# update window size properly
+shopt -s checkwinsize

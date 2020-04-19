@@ -9,15 +9,6 @@ done
 unset dotfiles
 unset file
 
-# append to history rather than overwriting it
-shopt -s histappend
-
-# autocorrect typos in path name when using cd
-shopt -s cdspell
-
-# update window size properly
-shopt -s checkwinsize
-
 # add tab completion
 if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
 	source "$(brew --prefix)/etc/profile.d/bash_completion.sh";
