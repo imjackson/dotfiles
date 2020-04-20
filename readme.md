@@ -18,7 +18,7 @@ Clone the repository to wherever you store projects.
 git clone https://github.com/imjackson/dotfiles.git
 ```
 Run the setup script. This creates a symbolic link between the dotfiles
-directory and your home directory for `.bash_profile`, `.bashrc`, `.vimrc`,
+directory and your home directory for `.bash_profile`, `.bashrc`, `.inputrc`, `.vimrc`,
 `.tmux.conf`, and the `.system` directory.
 ```
 ./setup
