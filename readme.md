@@ -26,4 +26,8 @@ file.
 This repository is maintained with the [GNU General Public License
 v3.0](https://github.com/imjackson/dotfiles/blob/master/LICENSE).
 
-
+## Acknowledgements
+These dotfiles are heavily inspired by those listed below.
+* [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
+* [webpro's dotfiles](https://github.com/webpro/dotfiles)
+* [thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles)
