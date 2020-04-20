@@ -1,0 +1,12 @@
+# make tab completion agnostic to case
+set completion-ignore-case on
+
+# list all matches
+set show-all-if-ambiguous on
+
+# improve completion by using text after the cursor
+set skip-completed-text on
+
+# show extra file information when completing
+set visible-stats on
+

@@ -1,5 +1,8 @@
 # SHOPT CONFIG
 
+# Enable case-insensitive globbing
+shopt -s nocaseglob
+
 # append to history rather than overwriting it
 shopt -s histappend
 
