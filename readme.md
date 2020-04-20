@@ -1,26 +1,33 @@
 # My .files
+Dotfiles designed to work out of the box on OSX and debian based systems with
+bash terminals.
 
 ## About
-These dotfiles are designed to work out of the box on both OSX and debian based
-systems with bash terminals. 
+All bash related dotfiles beside `.bash_profile` and `.bashrc` live within
+`.system`. Any dotfiles put into `.system` are automatically sourced, this is
+`.bash_profile`'s only purpose. `.bashrc` does nothing beside source
+`.bash_profile`.
 
 ## Setup
 **Disclaimer**: Running the `setup` script may overwrite existing files/settings on
-your system. It is advisable that this repo be used for reference first.
+your system. It is not advised that you implement any settings that you don't
+know the purpose of.
 
 Clone the repository to wherever you store projects.
 ```
 git clone https://github.com/imjackson/dotfiles.git
 ```
-Run the setup script. This creates a symbolic link for all contained files between the
-repo directory and your home folder.
+Run the setup script. This creates a symbolic link between the dotfiles
+directory and your home directory for `.bash_profile`, `.bashrc`, `.vimrc`,
+`.tmux.conf`, and the `.system` directory.
 ```
 ./setup
 ```
 
+## Use
 The use of symbolic links allows you to edit the dotfiles without working
-directly within your home folder. The terminal must be restarted after altering a
-file.
+directly within your home folder. After altering a dotfile, `~/.bashrc` must be
+sourced or the terminal must be restarted.
 
 ## License
 This repository is maintained with the [GNU General Public License
