@@ -21,9 +21,9 @@ get_git_branch() {
 PS1="\[\033]0;\w\007\]"
 
 # set prompt
-PS1+="\[$purple\]\u "               # user
-if [[ "$(SSH_TTY)" ]]; then         # add host if connected via ssh
-    PS1+="at \h"
+PS1+="\[$cyan\]\u "               # user
+if [[ "${SSH_TTY}" ]]; then         # add host if connected via ssh
+    PS1+="\[$white\]at \[$cyan\] \h "
 fi 
 PS1+="\[$white\]:: \w "             # working directory
 PS1+="\[$red\]\$(get_git_branch)"   # git branch
