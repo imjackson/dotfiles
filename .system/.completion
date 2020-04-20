@@ -1,0 +1,8 @@
+
+# add tab completion (view brew if available)
+if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
+    . "$(brew --prefix)/etc/profile.d/bash_completion.sh";
+elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion;
+fi;
+
