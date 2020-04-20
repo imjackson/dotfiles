@@ -21,3 +21,9 @@ repo directory and your home folder.
 The use of symbolic links allows you to edit the dotfiles without working
 directly within your home folder. The terminal must be restarted after altering a
 file.
+
+## License
+This repository is maintained with the [GNU General Public License
+v3.0](https://github.com/imjackson/dotfiles/blob/master/LICENSE).
+
+
