@@ -8,6 +8,3 @@ for file in $dotfiles; do
 done
 unset dotfiles
 unset file
-
-# Add my scripts directory to PATH
-export PATH="$PATH:~/scripts"
