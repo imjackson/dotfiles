@@ -67,3 +67,6 @@ alias clip="xclip -sel clip"
 
 # exit
 alias quit="exit"
+
+# hosts
+alias hosts="sudo $EDITOR /etc/hosts"
