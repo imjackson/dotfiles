@@ -1,7 +1,7 @@
 # BASH PROFILE
 
 # find all hidden files within .system directory
-dotfiles=$(find -L `pwd`/.system -mindepth 1 -maxdepth 1 -iname ".*")
+dotfiles=$(find -L ~/.system -mindepth 1 -maxdepth 1 -iname ".*")
 
 # source all found dotfiles
 for file in $dotfiles; do
