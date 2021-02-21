@@ -1,5 +1,8 @@
 # EXPORTS
 
+# Silence OSX bash deprecation warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # default editor
 export EDITOR='vim';
 
