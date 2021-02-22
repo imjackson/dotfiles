@@ -18,3 +18,8 @@ set relativenumber
 
 " Set textwidth to 80 for markdown files
 au BufRead,BufNewFile *.md setlocal textwidth=80
+
+" Disable backups and swap files
+set nobackup
+set nowb
+set noswapfile
