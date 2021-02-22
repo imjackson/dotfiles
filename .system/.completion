@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # add tab completion (view brew if available)
 if which brew &> /dev/null && [ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
