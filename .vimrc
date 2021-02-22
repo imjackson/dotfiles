@@ -16,6 +16,9 @@ set hlsearch
 set number
 set relativenumber
 
+" Show matching brackets
+set showmatch
+
 " Set textwidth to 80 for markdown files
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
