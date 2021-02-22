@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # SHOPT CONFIG
 
 # Enable case-insensitive globbing
