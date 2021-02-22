@@ -9,6 +9,10 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+" Ignore case unless using caps
+set ignorecase
+set smartcase
+
 " Highlight search results
 set hlsearch
 
