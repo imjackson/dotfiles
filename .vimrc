@@ -23,3 +23,7 @@ au BufRead,BufNewFile *.md setlocal textwidth=80
 set nobackup
 set nowb
 set noswapfile
+
+set ai " Auto indent
+set si " Smart indent
+set wrap " Wrap lines
