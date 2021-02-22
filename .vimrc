@@ -9,6 +9,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+" Highlight search results
+set hlsearch
+
 " UI
 set number
 set relativenumber
