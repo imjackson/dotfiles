@@ -8,3 +8,6 @@ for file in .bashrc .bash_profile .inputrc .vimrc .tmux.conf .gitignore_global .
 		printf "\nSymlink created ${file}\n\n"
 	fi
 done
+
+# Copy .gitconfig instead of linking it
+cp .gitconfig ~/.gitconfig
