@@ -50,6 +50,7 @@ alias pip="pip3"
 
 # editing
 alias v="vim"
+alias edit="$EDITOR"
 
 # npm
 alias ni="npm install"
