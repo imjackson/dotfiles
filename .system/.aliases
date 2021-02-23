@@ -29,6 +29,7 @@ alias ld="ls -ld */ 2> /dev/null; ls -ld .*/ 2> /dev/null" # list all directorie
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
+alias h="cd ~"
 
 # git
 alias ga="git add"
