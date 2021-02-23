@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# Update Homebrew
+brew update
+
+# Upgrade brew packages
+brew upgrade
+
+# Save Homebrew’s installed location.
+BREW_PREFIX=$(brew --prefix)
+
+# Updated Bash
+brew install bash
+brew install bash-completion2
+
+# Updated Tools
+brew install vim
+brew install grep
+brew install openssh
+brew install screen
+
+# Git
+brew install git
+brew install git-lfs
+
+# GnuPG
+brew install gnupg
+
+# Other
+brew install ssh-copy-id
