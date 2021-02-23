@@ -19,7 +19,9 @@ git clone https://github.com/imjackson/dotfiles.git
 ```
 Run the setup script. This creates a symbolic link between the dotfiles
 directory and your home directory for `.bash_profile`, `.bashrc`, `.inputrc`, `.vimrc`,
-`.tmux.conf`, and the `.system` directory.
+`.tmux.conf`, `.gitignore_global`, and the `.system` directory. To avoid collision, the `.gitconfig` file is 
+copied into your home directory as opposed to being symlinked.
+
 ```
 ./setup
 ```
