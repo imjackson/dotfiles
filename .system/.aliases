@@ -33,6 +33,7 @@ alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
 alias h="cd ~"
+alias d="cd ~/Desktop"
 
 # git
 alias ga="git add"
