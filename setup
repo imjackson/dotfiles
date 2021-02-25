@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # iterate over files, test if they exist in ~, if not create a symlink
-for file in .bashrc .bash_profile .inputrc .vimrc .tmux.conf .gitignore_global .system; do
+for file in .bashrc .bash_profile .inputrc .vimrc .tmux.conf .gitignore_global .hushignore .system; do
 	if [ ! -L ~/$file ]; then
 		printf "\nCreating symlink for ${file}\n\n"
 		ln -sfv $(pwd)/$file ~/$file
