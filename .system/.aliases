@@ -28,12 +28,13 @@ alias la="ls -a" # list all files
 alias ll="ls -l" # list non-hidden files in long format
 alias ld="ls -ld */ 2> /dev/null; ls -ld .*/ 2> /dev/null" # list all directories only in long format
 
-# cd 
+# getting around 
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
 alias h="cd ~"
 alias d="cd ~/Desktop"
+alias back="cd -"
 
 # git
 alias ga="git add"
