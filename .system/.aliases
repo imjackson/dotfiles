@@ -6,6 +6,9 @@
 alias rm="rm -i"
 alias mv="mv -i"
 
+# enable sudo-ing other aliases
+alias sudo="sudo "
+
 # add color support to ls on mac
 alias ls="ls -G"
  
