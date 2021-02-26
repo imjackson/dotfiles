@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 
+_files=( ".bashrc" ".bash_profile" ".inputrc" ".vimrc" ".tmux.conf" ".gitignore_global" ".hushlogin" ".system" )
+
 # iterate over files, test if they exist in ~, if not create a symlink
-for file in .bashrc .bash_profile .inputrc .vimrc .tmux.conf .gitignore_global .hushlogin .system; do
-	if [ ! -L ~/$file ]; then
-		printf "\nCreating symlink for ${file}\n\n"
-		ln -sfv $(pwd)/$file ~/$file
-		printf "\nSymlink created ${file}\n\n"
+for _file in "${_files[@]}"; do
+	if [ ! -L ~/$_file ]; then
+		printf "\nCreating symlink for ${_file}\n\n"
+		ln -sfv $(pwd)/$_file ~/$_file
+		printf "\nSymlink created ${_file}\n\n"
 	fi
 done
+
+# unset variables
+unset _files
+unset _file
 
 # Copy .gitconfig instead of linking it
 cp .gitconfig ~/.gitconfig
