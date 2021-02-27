@@ -1,6 +1,7 @@
 # Taps
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "homebrew/cask"
 
 # Get updated bash
 brew "bash"
@@ -24,4 +25,12 @@ brew "gnupg"
 
 # Other binaries
 brew "smartmontools"
+
+# Casks
+cask "firefox"
+cask "vlc"
+cask "visual-studio-code"
+cask "signal"
+cask "cryptomator"
+cask "standard-notes"
 
