@@ -15,5 +15,7 @@ done
 unset _files
 unset _file
 
-# Copy .gitconfig instead of linking it
-cp .gitconfig ~/.gitconfig
+# Copy .gitconfig to home directory if it isn't already there
+if [ ! -f ~/.gitconfig ]; then
+	cp .gitconfig ~/.gitconfig
+fi
