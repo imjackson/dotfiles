@@ -14,8 +14,5 @@ brew upgrade
 # Tap Homebrew bundle
 brew tap homebrew/bundle
 
-# Ensure we're in home directory
-cd ~
-
 # Run brew bundle
-brew bundle
+brew bundle --file ~/Brewfile
