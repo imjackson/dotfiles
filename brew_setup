@@ -1,30 +1,21 @@
 #!/usr/bin/env bash
 
+# Install brew if it isn't already installed
+if test ! $(which brew); then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 # Update Homebrew
 brew update
 
-# Upgrade brew packages
+# Upgrade existing packages
 brew upgrade
 
-# Save Homebrew’s installed location.
-BREW_PREFIX=$(brew --prefix)
+# Tap Homebrew bundle
+brew tap homebrew/bundle
 
-# Updated Bash
-brew install bash
-brew install bash-completion2
+# Ensure we're in home directory
+cd ~
 
-# Updated Tools
-brew install vim
-brew install grep
-brew install openssh
-brew install screen
-
-# Git
-brew install git
-brew install git-lfs
-
-# GnuPG
-brew install gnupg
-
-# Other
-brew install ssh-copy-id
+# Run brew bundle
+brew bundle
