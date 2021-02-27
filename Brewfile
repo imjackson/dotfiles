@@ -14,7 +14,6 @@ brew "git-lfs"
 brew "vim"
 
 # Updated tools
-brew "openssl@1.1"
 brew "grep"
 brew "openssh"
 brew "screen"
