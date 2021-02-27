@@ -23,3 +23,6 @@ brew "ssh-copy-id"
 # GnuPG 
 brew "gnupg"
 
+# Other binaries
+brew "smartmontools"
+
