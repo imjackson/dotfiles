@@ -42,8 +42,9 @@ copied into your home directory as opposed to being symlinked.
 ## Use
 
 The use of symbolic links allows you to edit the dotfiles without working
-directly within your home folder. After altering a dotfile, `~/.bashrc` must be
-sourced or the terminal must be restarted.
+directly within your home folder. After altering a dotfile that lives within `.system`,
+`~/.bashrc` must be sourced (this can be done with the `resource` alias) or the terminal
+must be restarted.
 
 ## License
 
