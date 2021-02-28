@@ -36,6 +36,7 @@ brew "php"
 # Other binaries
 brew "smartmontools"
 brew "wget"
+brew "tmux"
 
 # Mac App Store installer
 brew "mas"
