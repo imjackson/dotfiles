@@ -3,6 +3,9 @@ tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask"
 
+# Set cask installation location
+cask_args appdir: '/Applications'
+
 # Get updated bash
 brew "bash"
 brew "bash-completion@2"
