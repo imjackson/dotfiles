@@ -2,6 +2,7 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 
 # Set cask installation location
 cask_args appdir: '/Applications'
@@ -40,4 +41,4 @@ cask "visual-studio-code"
 cask "signal"
 cask "cryptomator"
 cask "standard-notes"
-
+cask "yubico-authenticator"
