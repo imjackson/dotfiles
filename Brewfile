@@ -29,6 +29,7 @@ brew "gnupg"
 
 # Other binaries
 brew "smartmontools"
+brew "wget"
 
 # Mac App Store installer
 brew "mas"
