@@ -28,6 +28,7 @@ brew "smartmontools"
 
 # Casks
 cask "firefox"
+cask "brave-browser"
 cask "vlc"
 cask "visual-studio-code"
 cask "signal"
