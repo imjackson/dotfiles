@@ -27,6 +27,12 @@ brew "ssh-copy-id"
 # GnuPG 
 brew "gnupg"
 
+# Dev tools/langs
+brew "go"
+brew "rust"
+brew "mysql"
+brew "php"
+
 # Other binaries
 brew "smartmontools"
 brew "wget"
