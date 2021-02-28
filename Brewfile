@@ -29,6 +29,9 @@ brew "gnupg"
 # Other binaries
 brew "smartmontools"
 
+# Mac App Store installer
+brew "mas"
+
 # Casks
 cask "firefox"
 cask "brave-browser"
