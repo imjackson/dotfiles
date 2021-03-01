@@ -43,6 +43,8 @@ directory for `.bash_profile`, `.bashrc`, `.inputrc`, `.vimrc`, `.tmux.conf`,
 avoid collision, the `.gitconfig` file is copied into your home directory as
 opposed to being symlinked.
 
+---
+
 You can also run the optional `brew_setup` script if you are on a macos system.
 
 ```
