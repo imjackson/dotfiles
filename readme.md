@@ -22,19 +22,19 @@ source `.bash_profile`.
 Clone the repository to wherever you store projects.
 
 ```
-git clone https://github.com/imjackson/dotfiles.git
+$ git clone https://github.com/imjackson/dotfiles.git
 ```
 
 or
 
 ```
-git clone git@github.com:imjackson/dotfiles.git
+$ git clone git@github.com:imjackson/dotfiles.git
 ```
 
 Run the `setup` script.
 
 ```
-./setup
+$ ./setup
 ```
 
 This creates a symbolic link between the dotfiles directory and your home
@@ -46,7 +46,7 @@ opposed to being symlinked.
 You can also run the optional `brew_setup` script if you are on a macos system.
 
 ```
-./brew_setup
+$ ./brew_setup
 ```
 
 This script will install [Homebrew](https://brew.sh) if it isn't already, then
