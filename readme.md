@@ -5,16 +5,19 @@ bash terminals.
 
 ## About
 
+**Disclaimer**: You are free to do whatever you want with the files and code in
+this repository. However these dotfiles are tailored to my personal use, and may
+not work for you. Running the `setup` script may overwrite existing
+files/settings on your system. You should not implement a configuration if you
+do not know what it does. Learn more about dotfiles philosophy on the
+[GitHub does dotfiles community website](https://dotfiles.github.io/).
+
 All bash related dotfiles with the exception of `.bash_profile` and `.bashrc`
 live within `.system`. Any dotfiles put into `.system` are automatically
 sourced, this is `.bash_profile`'s only purpose. `.bashrc` does nothing beside
 source `.bash_profile`.
 
 ## Setup
-
-**Disclaimer**: Running the `setup` script may overwrite existing files/settings
-on your system. It is not advised that you implement any settings that you don't
-know the purpose of.
 
 Clone the repository to wherever you store projects.
 
@@ -36,9 +39,9 @@ Run the `setup` script.
 
 This creates a symbolic link between the dotfiles directory and your home
 directory for `.bash_profile`, `.bashrc`, `.inputrc`, `.vimrc`, `.tmux.conf`,
-`.gitignore_global`, `.hushlogin`, and the `.system` directory. To avoid
-collision, the `.gitconfig` file is copied into your home directory as opposed
-to being symlinked.
+`.gitignore_global`, `.hushlogin`, `Brewfile`, and the `.system` directory. To
+avoid collision, the `.gitconfig` file is copied into your home directory as
+opposed to being symlinked.
 
 You can also run the optional `brew_setup` script if you are on a macos system.
 
