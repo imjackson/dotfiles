@@ -11,3 +11,8 @@ mkd() {
 codein() {
 	cd $1 && code .
 }
+
+# copy ~/.gitignore_global into current working directory
+getignore() {
+	cp ~/.gitignore_global .gitignore
+}
