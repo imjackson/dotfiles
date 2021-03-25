@@ -31,9 +31,10 @@ or
 $ git clone git@github.com:imjackson/dotfiles.git
 ```
 
-Run the `setup` script.
+Run the `setup` script from within the newly cloned directory.
 
 ```
+$ cd dotfiles
 $ ./setup
 ```
 
