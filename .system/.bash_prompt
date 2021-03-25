@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# BASH PROMPT
-
 # colors
 _black="\e[1;30m"
 _blue="\e[1;34m"
@@ -22,13 +20,13 @@ _get_git_branch() {
 PS1="\[\033]0;\w\007\]"
 
 # set prompt
-PS1+="\[$_cyan\]\u "               # user
-if [[ "${SSH_TTY}" ]]; then         # add host if connected via ssh
+PS1+="\[$_cyan\]\u "                    # user
+if [[ "${SSH_TTY}" ]]; then             # add host if connected via ssh
     PS1+="\[$_white\]at \[$_cyan\]\h "
 fi 
-PS1+="\[$_white\]:: \w "             # working directory
-PS1+="\[$_red\]\$(_get_git_branch)"   # git branch
-PS1+="\n"                           # newline
-PS1+="\[$_reset\]$ "                 # '$' prompt
+PS1+="\[$_white\]:: \w "                # working directory
+PS1+="\[$_red\]\$(_get_git_branch)"     # git branch
+PS1+="\n"                               # newline
+PS1+="\[$_reset\]$ "                    # '$' prompt
 export PS1
 
