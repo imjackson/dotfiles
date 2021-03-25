@@ -75,6 +75,9 @@ alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"
 # xclip
 alias clip="xclip -sel clip"
 
+# clear
+alias cl="clear"
+
 # exit
 alias quit="exit"
 
