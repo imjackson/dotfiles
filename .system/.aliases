@@ -33,6 +33,7 @@ alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
 alias h="cd ~"
+alias home="cd ~"
 alias d="cd ~/Desktop"
 alias back="cd -"
 
