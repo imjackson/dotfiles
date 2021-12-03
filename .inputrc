@@ -1,6 +1,9 @@
 # make tab completion agnostic to case
 set completion-ignore-case on
 
+# treat underscores and hyphens as equivalent
+set completion-map-case on
+
 # list all matches
 set show-all-if-ambiguous on
 
