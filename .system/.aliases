@@ -35,6 +35,7 @@ alias ......="cd ../../.."
 alias h="cd ~"
 alias home="cd ~"
 alias d="cd ~/Desktop"
+alias desktop="cd ~/Desktop"
 alias back="cd -"
 
 # git
