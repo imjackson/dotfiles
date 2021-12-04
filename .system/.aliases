@@ -79,13 +79,13 @@ alias gpgkeys="gpg --list-secret-keys --keyid-format LONG"
 # xclip
 alias clip="xclip -sel clip"
 
-# clear
+# clearing the terminal
 alias cl="clear"
 
-# exit
+# quitting the terminal
 alias quit="exit"
 
-# hosts
+# open hosts file
 alias hosts="sudo $EDITOR /etc/hosts"
 
 # re-souce .bashrc
