@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 
-_files=( ".bashrc" ".bash_profile" ".inputrc" ".vimrc" ".tmux.conf" ".gitignore_global" ".hushlogin" "Brewfile" ".system" )
+_files=( 
+	".bashrc" 
+	".bash_profile"
+	".inputrc" 
+	".vimrc" 
+	".tmux.conf" 
+	".gitignore_global" 
+	".hushlogin" 
+	"Brewfile" 
+	".system" 
+)
 
 # iterate over files, test if they exist in ~, if not create a symlink
 for _file in "${_files[@]}"; do
