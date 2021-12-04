@@ -37,6 +37,8 @@ alias home="cd ~"
 alias d="cd ~/Desktop"
 alias desktop="cd ~/Desktop"
 alias back="cd -"
+alias dots="cd ~/dotfiles"
+alias dotfiles="cd ~/dotfiles"
 
 # git
 alias ga="git add"
