@@ -28,15 +28,21 @@ alias la="ls -a" # list all files
 alias ll="ls -l" # list non-hidden files in long format
 alias ld="ls -ld */ 2> /dev/null; ls -ld .*/ 2> /dev/null" # list all directories only in long format
 
-# getting around 
+# cd-ing backwards 
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
+alias back="cd -"
+
+# cd-ing to home directory
 alias h="cd ~"
 alias home="cd ~"
+
+# cd-ing to desktop directory
 alias d="cd ~/Desktop"
 alias desktop="cd ~/Desktop"
-alias back="cd -"
+
+# cd-ing to dotfiles directory
 alias dots="cd ~/dotfiles"
 alias dotfiles="cd ~/dotfiles"
 
