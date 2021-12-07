@@ -1,6 +1,6 @@
 # My .files
 
-Dotfiles designed to work out of the box on OSX and debian based systems with
+Dotfiles designed to work out of the box on macOS and debian based systems with
 bash terminals.
 
 ## About
@@ -13,9 +13,9 @@ do not know what it does. Learn more about dotfiles philosophy on the
 [GitHub does dotfiles community website](https://dotfiles.github.io/).
 
 All bash related dotfiles with the exception of `.bash_profile` and `.bashrc`
-live within `.system`. Any dotfiles put into `.system` are automatically
-sourced, this is `.bash_profile`'s only purpose. `.bashrc` does nothing beside
-source `.bash_profile`.
+live within the `.system` directory. Any dotfiles put into the `.system`
+directory are automatically sourced, this is `.bash_profile`'s only purpose.
+`.bashrc` does nothing beside source `.bash_profile`.
 
 ## Setup
 
