@@ -46,6 +46,9 @@ alias desktop="cd ~/Desktop"
 alias dots="cd ~/dotfiles"
 alias dotfiles="cd ~/dotfiles"
 
+# cd-ing to Tresors directory
+alias tresors="cd ~/Tresors"
+
 # git
 alias ga="git add"
 alias gaa="git add ."
