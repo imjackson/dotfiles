@@ -95,4 +95,4 @@ alias quit="exit"
 alias hosts="sudo $EDITOR /etc/hosts"
 
 # re-souce .bashrc
-alias resource="source ~/.bashrc"
+alias resource=". ~/.bashrc"
