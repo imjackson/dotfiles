@@ -54,3 +54,7 @@ cask "yubico-authenticator"
 cask "protonvpn"
 cask "discord"
 cask "zoom"
+
+# Mac App Store programs
+mas "Bitwarden", id: 1352778147
+mas "Pages", id: 409201541
