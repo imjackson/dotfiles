@@ -37,6 +37,7 @@ brew "php"
 brew "smartmontools"
 brew "wget"
 brew "tmux"
+brew "ripgrep"
 
 # Mac App Store installer
 brew "mas"
