@@ -4,6 +4,7 @@ tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "buo/cask-upgrade"
+tap "homebrew/cask-fonts"
 
 # Set cask installation location
 cask_args appdir: '/Applications'
