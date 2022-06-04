@@ -25,6 +25,9 @@ export PYTHONIOENCODING='UTF-8'
 # tty for gpg
 export GPG_TTY=$(tty);
 
-# add my scripts directory to path
+# use homebrew binaries before macos provided
+export PATH="/usr/local/bin:$PATH"
+export PATH="$/opt/homebrew/bin:$PATH"
+
+# add scripts directory to path
 export PATH="$PATH:~/scripts"
-export PATH="$PATH:/opt/homebrew/bin"
