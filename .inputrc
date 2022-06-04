@@ -7,9 +7,6 @@ set completion-map-case on
 # list all matches
 set show-all-if-ambiguous on
 
-# identify symlinked directories with a trailing slash
-set marked-symlinked-directories on
-
 # improve completion by using text after the cursor
 set skip-completed-text on
 
