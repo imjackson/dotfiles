@@ -13,13 +13,25 @@ do not know what it does. Learn more about dotfiles philosophy on the
 [GitHub does dotfiles community website](https://dotfiles.github.io/).
 
 All bash related dotfiles with the exception of `.bash_profile` and `.bashrc`
-live within the `.system` directory. Any dotfiles put into the `.system`
+live within the `.system` directory. Any dotfiles put into the `.system` 
 directory are automatically sourced, this is `.bash_profile`'s only purpose.
 `.bashrc` does nothing beside source `.bash_profile`.
 
 ## Setup
 
-Clone the repository to wherever you store projects.
+**If running on a Mac:** Install XCode Command Line Tools.
+
+```
+$ xcode-select --install
+```
+
+**If running on an M1 Mac:** Install Rosetta 2.
+
+```
+$ softwareupdate --install-rosetta
+```
+
+Clone the repository to wherever yo`u store projects.
 
 ```
 $ git clone https://github.com/imjackson/dotfiles.git
