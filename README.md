@@ -69,13 +69,13 @@ run `brew bundle` on the [`Brewfile`](./Brewfile). This will install a list of
 useful (and some updated) binaries, as well as a list of applications I use via
 Homebrew casks.
 
-## Using Update Binaries from Brew
+## Using Updated Binaries from Brew
 
-`.system/.exports` adds Homebrew's installation locations to the path, ensuring
+`.system/.exports` adds the `brew` installation locations to the `$PATH`, ensuring
 that binaries installed with `brew` will be used first. There are additional steps
-to using updated `bash` through Homebrew, however.
+to using updated `bash`, however.
 
-First, Homebrew's version of `bash` must be added to the known shells file: `/etc/shells`.
+First, `bash` downloaded with `brew` must be added to the known shells file: `/etc/shells`.
 
 ```
 $ sudo -s
@@ -85,7 +85,7 @@ $ exit
 
 **Make sure you exit the root session before doing anything else in your terminal!**
 
-Use `chsh` to change the default shell. You can find out where the Homebrew placed the
+Use `chsh` to change the default shell. You can find out where `brew` placed the
 `bash` binary by with by running `which bash`. On  M1 Mac it is placed at `/opt/homebrew/bin/bash`.
 
 ```
