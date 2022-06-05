@@ -19,6 +19,15 @@ directory are automatically sourced, this is `.bash_profile`'s only purpose.
 
 ## Setup
 
+Mac systems use [`zsh`](https://www.zsh.org) as the default shell by default now. To use these dotfiles
+you must be using `bash`. The default shell is changed with the `chsh` command.
+
+```
+$ chsh -s /bin/bash
+```
+
+You will be prompted to enter your password.
+
 **If running on a Mac:** Install XCode Command Line Tools.
 
 ```
@@ -31,7 +40,7 @@ $ xcode-select --install
 $ softwareupdate --install-rosetta
 ```
 
-Clone the repository to wherever yo`u store projects.
+Clone the repository to wherever you store projects.
 
 ```
 $ git clone https://github.com/imjackson/dotfiles.git
