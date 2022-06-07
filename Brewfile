@@ -45,18 +45,18 @@ brew "ripgrep"
 brew "mas"
 
 # Casks
+cask "protonvpn"
 cask "firefox"
+cask "yubico-authenticator"
+cask "tresorit"
+cask "standard-notes"
+cask "cryptomator"
 cask "brave-browser"
 cask "vlc"
 cask "visual-studio-code"
 cask "signal"
-cask "cryptomator"
-cask "standard-notes"
-cask "yubico-authenticator"
-cask "protonvpn"
 cask "discord"
 cask "zoom"
-cask "tresorit"
 
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
