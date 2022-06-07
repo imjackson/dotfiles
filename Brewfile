@@ -56,6 +56,7 @@ cask "yubico-authenticator"
 cask "protonvpn"
 cask "discord"
 cask "zoom"
+cask "tresorit"
 
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
