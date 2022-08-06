@@ -13,17 +13,18 @@ do not know what it does. Learn more about dotfiles philosophy on the
 [GitHub does dotfiles community website](https://dotfiles.github.io/).
 
 All bash related dotfiles with the exception of `.bash_profile` and `.bashrc`
-live within the `.system` directory. Any dotfiles put into the `.system` 
+live within the `.system` directory. Any dotfiles put into the `.system`
 directory are automatically sourced, this is `.bash_profile`'s only purpose.
 `.bashrc` does nothing beside source `.bash_profile`.
 
 ## Setup
 
-Mac systems now use [`zsh`](https://www.zsh.org) as the default shell. To use these dotfiles
-you must be using `bash`. The default shell is changed with the `chsh` command.
+Mac systems now use [`zsh`](https://www.zsh.org) as the default shell. To use
+these dotfiles you must be using `bash`. The default shell is changed with the
+`chsh` command.
 
 ```
-$ chsh -s /bin/bash
+chsh -s /bin/bash
 ```
 
 You will be prompted to enter your password.
@@ -31,32 +32,32 @@ You will be prompted to enter your password.
 **If running on a Mac:** Install XCode Command Line Tools.
 
 ```
-$ xcode-select --install
+xcode-select --install
 ```
 
 **If running on an M1 Mac:** Install Rosetta 2.
 
 ```
-$ softwareupdate --install-rosetta
+softwareupdate --install-rosetta
 ```
 
 Clone the repository to wherever you store projects.
 
 ```
-$ git clone https://github.com/imjackson/dotfiles.git
+git clone https://github.com/imjackson/dotfiles.git
 ```
 
 or
 
 ```
-$ git clone git@github.com:imjackson/dotfiles.git
+git clone git@github.com:imjackson/dotfiles.git
 ```
 
 Run the `setup` script from within the newly cloned directory.
 
 ```
-$ cd dotfiles
-$ ./setup
+cd dotfiles
+./setup
 ```
 
 This creates a symbolic link between the dotfiles directory and your home
@@ -70,7 +71,7 @@ opposed to being symlinked.
 You can also run the optional `brew_setup` script if you are on a macos system.
 
 ```
-$ ./brew_setup
+./brew_setup
 ```
 
 This script will install [Homebrew](https://brew.sh) if it isn't already, then
@@ -80,25 +81,27 @@ Homebrew casks.
 
 ## Using Updated Binaries from Brew
 
-`.system/.exports` adds the `brew` installation locations to the `$PATH`, ensuring
-that binaries installed with `brew` will be used first. There are additional steps
-to using updated `bash`, however.
+`.system/.exports` adds the `brew` installation locations to the `$PATH`,
+ensuring that binaries installed with `brew` will be used first. There are
+additional steps to using updated `bash`, however.
 
-First, `bash` downloaded with `brew` must be added to the known shells file: `/etc/shells`.
-
-```
-$ sudo -s
-$ echo "$(which bash)" >> /etc/shells
-$ exit
-```
-
-**Make sure you exit the root session before doing anything else in your terminal!**
-
-Use `chsh` to change the default shell. You can find out where `brew` placed the
-`bash` binary by with by running `which bash`. On  M1 Mac it is placed at `/opt/homebrew/bin/bash`.
+First, `bash` downloaded with `brew` must be added to the known shells file:
+`/etc/shells`. You can find where `brew` placed the `bash` by running
+`which bash`. On M1 Mac it is located at: `/opt/homebrew/bin/bash`.
 
 ```
-$ chsh -s /opt/homebrew/bin/bash
+sudo -s
+echo "$(which bash)" >> /etc/shells
+exit
+```
+
+**Make sure you exit the root session before doing anything else in your
+terminal!**
+
+Use `chsh` to change the default shell.
+
+```
+chsh -s /opt/homebrew/bin/bash
 ```
 
 You will be prompted to enter your password.
