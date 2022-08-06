@@ -23,7 +23,7 @@ Mac systems now use [`zsh`](https://www.zsh.org) as the default shell. To use
 these dotfiles you must be using `bash`. The default shell is changed with the
 `chsh` command.
 
-```
+```bash
 chsh -s /bin/bash
 ```
 
@@ -31,31 +31,31 @@ You will be prompted to enter your password.
 
 **If running on a Mac:** Install XCode Command Line Tools.
 
-```
+```bash
 xcode-select --install
 ```
 
 **If running on an M1 Mac:** Install Rosetta 2.
 
-```
+```bash
 softwareupdate --install-rosetta
 ```
 
 Clone the repository to wherever you store projects.
 
-```
+```bash
 git clone https://github.com/imjackson/dotfiles.git
 ```
 
 or
 
-```
+```bash
 git clone git@github.com:imjackson/dotfiles.git
 ```
 
 Run the `setup` script from within the newly cloned directory.
 
-```
+```bash
 cd dotfiles
 ./setup
 ```
@@ -70,7 +70,7 @@ opposed to being symlinked.
 
 You can also run the optional `brew_setup` script if you are on a macos system.
 
-```
+```bash
 ./brew_setup
 ```
 
@@ -89,18 +89,18 @@ First, `bash` downloaded with `brew` must be added to the known shells file:
 `/etc/shells`. You can find where `brew` placed the `bash` by running
 `which bash`. On M1 Mac it is located at: `/opt/homebrew/bin/bash`.
 
-```
+```bash
 sudo -s
 echo "$(which bash)" >> /etc/shells
 exit
 ```
 
-**Make sure you exit the root session before doing anything else in your
+**Make sure you exit the root sebssion before doing anything else in your
 terminal!**
 
 Use `chsh` to change the default shell.
 
-```
+```bash
 chsh -s /opt/homebrew/bin/bash
 ```
 
