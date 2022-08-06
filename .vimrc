@@ -37,3 +37,6 @@ set noswapfile
 set ai " Auto indent
 set si " Smart indent
 set wrap " Wrap lines
+
+" Allow deleting content from previous sessions
+set backspace=indent,eol,start
