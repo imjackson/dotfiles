@@ -19,7 +19,7 @@ directory are automatically sourced, this is `.bash_profile`'s only purpose.
 
 ## Setup
 
-Mac systems use [`zsh`](https://www.zsh.org) as the default shell by default now. To use these dotfiles
+Mac systems now use [`zsh`](https://www.zsh.org) as the default shell. To use these dotfiles
 you must be using `bash`. The default shell is changed with the `chsh` command.
 
 ```
