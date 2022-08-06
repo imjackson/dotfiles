@@ -101,5 +101,5 @@ alias hosts="sudo $EDITOR /etc/hosts"
 alias resource=". ~/.bashrc"
 
 # date related 
-alias week="date '+%Vth week of the year'"
+alias week="date +'week %V of the year'"
 alias day="date +'day %j of the year'"
