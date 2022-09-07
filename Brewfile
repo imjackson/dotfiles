@@ -57,6 +57,8 @@ cask "visual-studio-code"
 cask "signal"
 cask "discord"
 cask "zoom"
+cask "r"
+cask "rstudio"
 
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
