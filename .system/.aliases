@@ -47,7 +47,7 @@ alias dots="cd ~/dotfiles"
 alias dotfiles="cd ~/dotfiles"
 
 # cd-ing to Tresors directory
-alias tresors="cd ~/Tresors"
+alias tresors="cd ~/Tresorit"
 
 # git
 alias ga="git add"
