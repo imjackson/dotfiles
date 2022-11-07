@@ -11,3 +11,6 @@ done
 # unset variables
 unset _dotfiles
 unset _file
+
+# source FZF
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
