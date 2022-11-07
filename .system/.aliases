@@ -69,6 +69,8 @@ alias pip="pip3"
 
 # editing
 alias v="vim"
+alias vfzf="vim -o \`fzf\`"
+alias vf="vim -o \`fzf\`"
 alias edit="$EDITOR"
 
 # npm
