@@ -33,3 +33,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # add scripts directory to path
 export PATH="$PATH:~/scripts"
+
+# FZF
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git --ignore node_modules --ignore .svn -g ""'
