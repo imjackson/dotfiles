@@ -31,6 +31,8 @@ export GPG_TTY=$(tty);
 # use homebrew binaries before macos provided
 export PATH="/opt/homebrew/bin:$PATH"
 
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
 # add scripts directory to path
 export PATH="$PATH:~/scripts"
 
