@@ -19,6 +19,7 @@ brew "git-lfs"
 
 # Vim
 brew "vim"
+brew "fzf"
 
 # Updated tools
 brew "grep"
