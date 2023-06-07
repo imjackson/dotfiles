@@ -64,3 +64,8 @@ cask "rstudio"
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
 mas "Pages", id: 409201541
+
+# VSCode Extensions
+vscode "esbenp.prettier-vscode"
+vscode "dbaeumer.vscode-eslint"
+vscode "vscodevim.vim"
