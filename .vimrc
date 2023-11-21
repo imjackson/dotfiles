@@ -5,6 +5,8 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
+set rtp+=/opt/homebrew/opt/fzf
+
 syntax enable " enable syntax processing
 
 " color scheme
