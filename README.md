@@ -95,7 +95,7 @@ echo "$(which bash)" >> /etc/shells
 exit
 ```
 
-**Make sure you exit the root sebssion before doing anything else in your
+**Make sure you exit the root session before doing anything else in your
 terminal!**
 
 Use `chsh` to change the default shell.
