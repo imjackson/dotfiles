@@ -71,7 +71,7 @@ alias pip="pip3"
 alias v="vim"
 alias vfzf="vim -o \`fzf\`"
 alias vf="vim -o \`fzf\`"
-alias edit="$EDITOR"
+alias edit='$EDITOR'
 
 # npm
 alias ni="npm install"
@@ -97,7 +97,7 @@ alias cl="clear"
 alias quit="exit"
 
 # open hosts file
-alias hosts="sudo $EDITOR /etc/hosts"
+alias hosts='sudo $EDITOR /etc/hosts'
 
 # re-souce .bashrc
 alias resource=". ~/.bashrc"
