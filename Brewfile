@@ -59,6 +59,9 @@ cask "discord"
 cask "zoom"
 cask "r"
 cask "rstudio"
+cask "zulu"
+cask "docker"
+cask "wireshark"
 
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
