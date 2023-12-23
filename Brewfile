@@ -63,6 +63,8 @@ cask "rstudio"
 # Mac App Store programs
 mas "Bitwarden", id: 1352778147
 mas "Pages", id: 409201541
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
 
 # VSCode Extensions
 vscode "esbenp.prettier-vscode"
