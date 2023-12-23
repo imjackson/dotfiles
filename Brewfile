@@ -35,12 +35,14 @@ brew "go"
 brew "rust"
 brew "mysql"
 brew "php"
+brew "docker"
 
 # Other binaries
 brew "smartmontools"
 brew "wget"
 brew "tmux"
 brew "ripgrep"
+brew "shellcheck" 
 
 # Mac App Store installer
 brew "mas"
