@@ -42,6 +42,8 @@ brew "smartmontools"
 brew "wget"
 brew "tmux"
 brew "ripgrep"
+brew "the_silver_searcher"
+brew "ag"
 brew "shellcheck" 
 
 # Mac App Store installer
